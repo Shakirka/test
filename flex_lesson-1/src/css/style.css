@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+  background-color: #f9f9f9; }
+
+button {
+  outline: none;
+  cursor: pointer; }
+
+.box {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .box-title {
+    margin-bottom: 125px; }
+  .box-wrap {
+    display: flex;
+    justify-content: space-around; }
+  .box-elem {
+    text-align: center; }
+    .box-elem__price {
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 25px;
+      margin-bottom: 24px; }
+    .box-elem__name {
+      font-size: 16px;
+      font-weight: 300px; }
+    .box-elem__img {
+      text-align: center;
+      margin-bottom: 24px; }
+
+.button {
+  color: #23bac1;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 24px 76px;
+  background-color: transparent;
+  border: 1px solid #23bac1; }

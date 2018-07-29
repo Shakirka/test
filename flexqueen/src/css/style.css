@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box; }
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 96px;
+  justify-content: center; }
+  .header-img {
+    margin-right: 37px; }
+  .header-text__title {
+    font-size: 48px;
+    font-family: "Tahoma";
+    color: black;
+    font-weight: bold;
+    margin-bottom: 14px; }
+  .header-text__subtitle {
+    font-size: 30px;
+    font-family: "Tahoma";
+    color: black;
+    margin-bottom: 35px; }
+  .header-text__descr {
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: black;
+    max-width: 526px;
+    height: 99px;
+    margin-bottom: 47px; }
+  .header-text__price {
+    font-size: 48px;
+    font-family: "Tahoma";
+    color: #313131;
+    margin-bottom: 51px; }
+
+.button {
+  border-radius: 5px;
+  background-color: #f05a22;
+  font-size: 24px;
+  font-family: "Tahoma";
+  color: white;
+  font-weight: bold;
+  padding: 22px 47px;
+  border: 2px solid #f05a22; }
+
+.button-o {
+  color: #f05a22;
+  background-color: transparent;
+  border: 2px solid #f05a22;
+  margin-left: 40px; }
+
+.features {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; }
+  .features-title {
+    font-size: 30px;
+    font-family: "Tahoma";
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: center; }
+  .features-wrap {
+    display: flex;
+    justify-content: space-around; }
+  .features-block__img {
+    min-height: 55px; }
+  .features-block {
+    width: 25%; }
+
+.wrap {
+  border-width: 1px solid;
+  border-color: white;
+  background-color: #f2f2f2; }

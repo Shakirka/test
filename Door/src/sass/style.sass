@@ -1,0 +1,83 @@
+*
+ box-sizing: border-box
+button
+ outline: none
+ cursor: pointer
+body
+ margin: 0
+ padding: 0
+.box
+ padding-top: 86px
+ padding-bottom: 90px
+ background-color: #f2f2f2
+ text-align: center
+ margin: auto
+ 
+ &-text
+  text-align: center
+  &__title
+   font-size: 30px
+   margin-bottom: 40px
+  &__descr
+   font-size: 18px 
+   color: rgb(0, 0, 0)
+   margin-bottom: 50px
+ &-product
+  padding-top: 0
+  &__wrap
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  &__door
+   display: inline-block
+   background-color: white
+   margin-bottom: 50px
+   margin-right: 50px
+   width: 280px
+   padding-top: 40px
+   padding-bottom: 40px
+   &__img
+    margin-bottom: 26px
+   &__name
+    font-size: 16px
+    color: rgb(57, 57, 57) 
+    margin-bottom: 30px
+   &__price
+    font-size: 18px
+    color: rgb(57, 57, 57)
+    font-weight: bold
+.end
+ margin-right: 0px
+.three
+ margin-bottom: 25px
+.three-img 
+ margin-bottom: 15px
+.button
+ font-size: 18px
+ color: rgb(255, 255, 255)
+ background-color: rgb(231, 0, 0)
+ padding: 28px 48px
+ border: none
+ text-align: center 
+@media (max-width: 768px)
+ .box-product__door
+  margin-right: 0px
+@media (min-width: 992px)
+ .box-text__title
+  font-size: 50px
+@media (min-width: 1200px)
+ .box-product__door  
+  width:  25%
+@media (min-width: 768px) 
+ .end
+  margin-right: 50px
+@media (min-width: 562px) 
+ .box-product__door
+  margin-right: 50px
+       
+    
+
+  
+
+    

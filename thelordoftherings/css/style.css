@@ -1,0 +1,171 @@
+.auto {
+      color:red;    
+}
+
+.green {
+    color:green;
+}
+
+.blue {
+    color:blue;
+}
+
+.f {
+    text-align: center;
+
+}
+
+.main {
+    text-align: center;
+}
+    
+.orange {
+    color:orange;
+}
+
+.Brown {
+    color:Brown;
+}
+
+.black {
+    color:black;
+}
+
+.position {
+    position: sticky;
+    top: 0px;
+    right: 50px;
+    border: 10px solid black;
+    margin-left:1050px;
+    background-color:#998992;
+    font-size:20px;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+body {
+    background-image:url(http://photoshopia.ru/gallery_bkg/data/695/book_envelope_things_photoshopia_ru_11.jpg);
+    background-size: 300px 370px;
+}
+
+.img {
+    border: 5px solid black;
+    transition: 1s all;
+}
+
+.img:hover {
+    border: 15px solid rgb(42, 29, 30);
+}
+
+.article {
+    border: 5px solid black;
+    margin-bottom: 50px;
+    text-align: center;
+    transition:0.2s all;
+}
+
+.article:hover {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-color: #990096;
+    font-size: 20px;
+    color:#F6C8FF;
+    font: 12pt comic sans ms;
+    background: rgba(42,29,30, 0.6);
+}
+ 
+.chapter {
+    transition: 0.5s all;
+   
+}
+
+.chapter:hover {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-color: #990096;
+    font-size: 20px;
+    background: rgba(42,29,30, 0.6);
+    color:#F6C8FF;
+    font: 12pt comic sans ms;
+    position: relative;
+}
+
+
+.chapter2 {
+    transition: 0.5s all;
+}
+
+.chapter2:hover {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-color: #990096;
+    font-size: 20px;
+    background: rgba(42,29,30, 0.6);
+    color:#F6C8FF;
+    font: 12pt comic sans ms;
+    position: relative;
+}
+
+.chapter3 {
+     transition: 0.5s all;
+}
+
+.chapter3:hover {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-color: #990096;
+    font-size: 20px;
+    background: rgba(42,29,30, 0.6);
+    color:#F6C8FF;
+    font: 12pt comic sans ms;
+    position: relative;
+}
+
+.chapter4 {
+     transition: 0.5s all;
+}
+
+.chapter4:hover {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-color: #990096;
+    font-size: 20px;
+    background: rgba(42,29,30, 0.6);
+    color:#F6C8FF;
+    font: 12pt comic sans ms;
+    position: relative;
+}
+
+.chapter5 {
+     transition: 0.5s all;
+}
+
+.chapter5:hover {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-color: #990096;
+    font-size: 20px;
+    background: rgba(42,29,30, 0.6);
+    color:#F6C8FF;
+    font: 12pt comic sans ms;
+    position: relative;
+}
+
+.caption {
+    text-decoration:underline;
+}
+
+.text {
+    font-style: italic;
+}
+
+.note {
+    font-weight: bold;
+}
+
+.trait {
+    text-decoration: line-through;
+}

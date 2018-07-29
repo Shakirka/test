@@ -1,0 +1,101 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    color: #000;
+}
+
+button {
+  outline: none;
+    cursor: pointer;
+}
+
+img {
+   max-width: 100%;
+}
+
+.header {
+    padding-top: 77px;
+    padding-bottom: 96px;
+}
+
+.header-text__title {
+font-size: 48px;
+font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.header-text__subtitle {
+font-size: 30px;
+font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.header-text__descr {
+    font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+    margin-bottom: 47px;
+}
+
+.header-text__price {
+    font-size: 48px;
+font-weight: 400;
+    margin-bottom: 51px;
+}
+
+.button {
+border-radius: 5px;
+background-color: #f05a22;
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+    border: 3px solid #f05a22;
+    color: #fff;
+    padding: 24px 44px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.button-o {
+    border: 3px solid #f05a22;
+    background-color:transparent;
+    color:  #f05a22;
+}
+
+.features {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 91px;
+    padding-bottom: 101px;
+}
+
+.section-title {
+    font-size: 30px;
+font-weight: 700;
+    margin-bottom: 89px;
+}
+
+.features-img {
+    min-height: 55px;
+}
+
+.features-text {
+    font-size: 18px;
+font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.whobought {
+  text-align: center;
+    padding-top: 87px;
+    padding-bottom: 110px;
+}
+
+.whobought-img {
+    margin-bottom: 38px;
+}
+
+.features {
+    min-height: 150px;
+    background-color: red;
+}

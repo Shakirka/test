@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Tahoma;
+}
+
+.container {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 97px;
+}
+
+.row {
+    padding-top: 82px;
+}
+
+.row img {
+
+}
+
+.row {
+    display:flex;
+}
+
+.features {
+    width: 100%;
+    min-height: 85px;
+}
+
+.why {
+    vertical-align: center;
+}

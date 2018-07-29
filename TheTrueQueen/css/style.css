@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+.header {
+ padding-top: 77px;
+ padding-bottom: 94px;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-img {
+   display: inline-block;
+   width: 45%;
+   vertical-align: middle;
+}
+
+.header-text {
+    vertical-align: middle;
+    display: inline-block;
+    width: 54    %;
+}
+
+.header-text__title {
+color: #000000;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+
+.header-text__subtitle {
+    font-size: 30px;
+font-weight: 400;
+    margin-bottom:35px;
+}
+
+.header-text__descr {
+    font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+    margin-bottom: 47px;
+    max-width: 526px;
+}
+
+.header-text__price {
+    font-size: 48px;
+font-weight: 400;
+line-height: 27px;
+    margin-bottom: 51px;
+}
+
+.button {
+border-radius: 5px;
+background-color: #f05a22;
+border: 2px solid transparent;
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+padding: 24px 47px;
+   
+color: #ffffff;
+}
+
+.button-o {
+    color: #f05a22;
+    background-color: transparent;
+    border: 2px solid #f05a22;
+    margin-left: 37px;
+}
+
+.features-blok {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    float:left;
+}
+
+.section-title {
+ font-size: 30px;
+font-weight: 700;
+line-height: 27px;
+    text-align: center;
+    margin-bottom: 89px;
+    padding-top: 91px;
+  
+}
+
+.features-wrap::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.features {
+    background-color: #f2f2f2;
+}
+
+.features-wrap {
+    padding-bottom: 105px;
+}
+
+.features-blok__img {
+    min-height: 55px;
+    margin-bottom: 23px;
+}
+
+.features-blok__text {
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+}
+
+.whobought {
+    padding-top:87px;
+    padding-bottom:110px;
+    padding-left: 111px;
+    padding-right: 111px;
+}
+
+.whobought-img {
+display: inline-block;
+float:left;    
+margin-bottom: 38px;
+margin-right: 24px;
+
+    
+}
+
+
+.whobought-wrap::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.whobought-img img {
+    object-fit: contain;
+    width: 260px;
+    height: 260px;
+}
+
+.whobought-wrap:last-child {
+    margin-right: 0;
+}

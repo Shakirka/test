@@ -1,0 +1,19 @@
+body {
+  margin: 0; }
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: #71BE46; }
+
+li {
+  margin-bottom: 35px; }
+  li a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px 5px; }
+    li a:hover {
+      background-color: #B46BBE; }

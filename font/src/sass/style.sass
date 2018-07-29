@@ -1,0 +1,46 @@
+body
+ font-family: 'Roboto', sans-serif
+ margin: 0
+@import '_variables'
+@import 'main'
+@import 'reset'
+button
+ outline: none
+ cursor: pointer
+input
+ outline: none
+.header
+ padding-top: 30px
+ padding-bottom: 15px
+ &-contacts  
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  &__button
+   font-size: 14px
+   color: rgb(255, 255, 255)
+   background-color: $bgc
+   border: none
+   padding: 13px 23px
+   border-radius: 5px
+   font-family: "Roboto"
+   img
+    vertical-align: middle 
+  &__phone
+   font-size: 22px
+   margin-right: 13px
+   border-right: 1px solid #CFCFD0
+   padding-right: 13px
+@media (min-width: 1200px)
+ .container
+  max-width: 968px 
+.two
+ border-right: none
+.button
+ font-size: 14px
+ color: rgb(255, 255, 255)
+ background-color: $bgc
+ border: none
+ padding: 13px 23px
+ border-radius: 5px
+ font-family: "Roboto"
